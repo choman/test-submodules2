@@ -3,4 +3,6 @@ version: '3'
 
 tasks:
    test:
-     cmd: echo "hello"
+     desc: echo hello
+     cmds:
+       - cmd: echo "hello"
